@@ -1,3 +1,5 @@
+package animal;
+
 public class Animal {
 
     private int paw;
@@ -10,8 +12,8 @@ public class Animal {
     public void setPaw(int x) {
         paw = x;
     }
-  
-    public void getPaw(int x) {
+
+    public int getPaw() {
         return paw;
     }
 
