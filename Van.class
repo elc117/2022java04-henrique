@@ -1,0 +1,12 @@
+public class Van extends Vehicle{
+  privete int seat;
+
+  public seat(){
+    seat = 12;
+  }
+
+  public void setSeat(int s){
+    seat = s;
+  }
+  
+}
