@@ -1,3 +1,4 @@
+package publ;
 
 public class Vehicle {
 
@@ -12,6 +13,14 @@ public class Vehicle {
     public void quant(int x, int y) {
         window = x;
         wheel = y;
+    }
+
+    public int getWindow() {
+        return window;
+    }
+
+    public int getWheel() {
+        return wheel;
     }
 
 }

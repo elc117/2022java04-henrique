@@ -1,12 +1,19 @@
-public class Van extends Vehicle{
-  privete int seat;
+package publ;
 
-  public seat(){
-    seat = 12;
-  }
+public class Van extends Vehicle {
 
-  public void setSeat(int s){
-    seat = s;
-  }
-  
+    private int seat;
+
+    public Van() {
+        seat = 12;
+    }
+
+    public void setSeat(int s) {
+        seat = s;
+    }
+
+    public int getSeat() {
+        return seat;
+    }
+
 }
